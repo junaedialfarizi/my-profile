@@ -1,0 +1,130 @@
+* {
+padding: 0;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.medsos{
+padding: 5px 0;
+background-color: #237E62 ;
+}
+
+a{
+  color: inherit;  
+  text-decoration: none;
+}
+
+.medsos ul li{
+display: inline;
+color: #fff;
+justify-content: space-around;
+margin: 1%;
+}
+
+.medsos a:hover{
+    background-color:#8ad6c3; 
+    color: #fff;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header h1{
+    float: left;
+    padding: 15px 0;
+    color: #148f77;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a{
+    display: inline-block;
+    padding: 25px 20px;
+    font-weight: bold;
+   
+}
+
+header ul li a:hover{
+background-color:#148f77; 
+color: #fff;
+}
+
+
+.banner{
+    height: 60vh;
+    background-image: url(banner.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner:after{
+ content: '';
+ display: block;
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: rgba(20,143,119,.6);
+}
+
+section{
+    padding: 50px 0;
+}
+
+.banner h2{
+    color: #fff;
+    z-index: 1;
+    padding: 20px 25px;
+    border: solid;
+}
+
+section h3{
+    text-align: center;
+    padding: 20px 0;
+    color:#148f77 ;
+    margin-bottom: 20px;
+}
+
+.about{ 
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+.service {
+    margin-top: 5%;
+    background-color: #f9f9f9;
+}
+
+
+.service ul{
+    float: left;
+    
+}
+
+ .service ul li {
+    display: inline-block;
+    padding: 20px 20px;
+    font-weight: bold;
+    
+}
+
+
